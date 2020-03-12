@@ -1,3 +1,3 @@
-# js-uspj33
+# Brunei COVID-19 Tracker
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/js-uspj33)
+http://covid19brunei.com
