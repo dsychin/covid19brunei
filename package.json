@@ -2,5 +2,7 @@
   "name": "covid19brunei",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "chart.js": "^2.9.3"
+  }
 }
