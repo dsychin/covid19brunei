@@ -1,3 +1,13 @@
-h1, h2 {
-  font-family: Lato;
+body {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-size: .875rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
 }
