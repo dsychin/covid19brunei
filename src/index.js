@@ -14,15 +14,25 @@ let chart = new Chart(ctx, {
     type: 'line',
     data: {
         labels: [
-            '1',
-            '2',
-            '3',
-            '4',
-            '5'
+            '9 March',
+            '10 March',
+            '11 March',
+            '12 March',
+            '13 March'
         ],
         datasets: [{
             label: 'Number of Cases',
+            fill: false,
+            borderColor: '#dc3545',
+            backgroundColor: '#dc3545',
             data: [1, 6, 11, 25, 37]
         }]
-    } 
+    },
+    options: {
+        responsive: true,
+        title: {
+            display: true,
+            text: 'Brunei COVID-19 Case Trends'
+        }
+    }
 });

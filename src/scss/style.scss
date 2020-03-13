@@ -12,6 +12,20 @@ body {
   margin: 0 auto;
 }
 
+.info {
+  margin-top: 2rem;
+  text-align: center;
+
+  h2 {
+    margin: 0;
+  }
+
+  a {
+    font-size: 3rem;
+    text-decoration: none;
+  }
+}
+
 .stats {
   .wrapper {
     display: flex;
@@ -21,20 +35,28 @@ body {
       text-align: center;
 
       div:first-child {
-        font-size: 2rem;
+        font-size: 3rem;
       }
 
       &:nth-child(1) {
-        color: orange;
+        color: #ffc107;
       }
 
       &:nth-child(2) {
-        color: red;
+        color: #dc3545;
       }
 
       &:nth-child(3) {
-        color: green;
+        color: #28a745;
       }
+    }
+  }
+}
+
+.helpful-links {
+  ul {
+    li {
+      margin: 1rem 0;
     }
   }
 }
