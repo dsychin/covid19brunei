@@ -30,6 +30,7 @@ let chart = new Chart(ctx, {
     },
     options: {
         responsive: true,
+        maintainAspectRatio: false,
         title: {
             display: true,
             text: 'Brunei COVID-19 Case Trends'
