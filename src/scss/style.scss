@@ -15,5 +15,26 @@ body {
 .stats {
   .wrapper {
     display: flex;
+
+    .stat {
+      width: 33.33%;
+      text-align: center;
+
+      div:first-child {
+        font-size: 2rem;
+      }
+
+      &:nth-child(1) {
+        color: orange;
+      }
+
+      &:nth-child(2) {
+        color: red;
+      }
+
+      &:nth-child(3) {
+        color: green;
+      }
+    }
   }
 }
