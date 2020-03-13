@@ -1,0 +1,35 @@
+{
+  "lastUpdated": "2020-03-13",
+  "statistics": {
+    "cases": {
+      "variance": 12,
+      "total": 37
+    },
+    "deaths": {
+      "variance": 0,
+      "total": 0
+    },
+    "recovered": {
+      "variance": 0,
+      "total": 0
+    }
+  },
+  "cases": [
+    {
+      "caseNumber": 1,
+      "date": "2020-03-10",
+      "source": "https://www.instagram.com/p/B9jv8JJBGU3/",
+      "gender": "M"
+    },
+    {
+      "caseNumber": 2,
+      "date": "2020-03-11",
+      "source": "https://www.instagram.com/p/B9mc3wChigG/"
+    },
+    {
+      "caseNumber": 3,
+      "date": "2020-03-11",
+      "source": "https://www.instagram.com/p/B9mc3wChigG/"
+    }
+  ]
+}
