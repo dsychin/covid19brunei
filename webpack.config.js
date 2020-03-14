@@ -24,7 +24,7 @@ module.exports = {
         new CopyPlugin([
             { from: 'src/manifest.json', to: 'manifest.json' },
             { from: 'src/images/icons', to: 'images/icons' }
-        ])
+        ]),
     ],
     mode: "production",
     devServer: {
@@ -54,7 +54,7 @@ module.exports = {
                 test: /\.html$/i,
                 loader: 'html-loader',
                 query: {
-                    interpolate: 'require'
+                    interpolate: true
                 },
             },
             {
