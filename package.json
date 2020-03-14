@@ -6,9 +6,7 @@
     "start": "webpack-dev-server --open",
     "build": "webpack"
   },
-  "dependencies": {
-    "chart.js": "^2.9.3"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.8.7",
     "@babel/polyfill": "^7.8.7",
