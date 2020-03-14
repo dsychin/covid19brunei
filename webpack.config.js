@@ -1,6 +1,7 @@
 const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
     entry: ['@babel/polyfill', './src/index.js'],
@@ -20,6 +21,10 @@ module.exports = {
                 removeRedundantAttributes: false,
             },
         }),
+        new CopyPlugin([
+            { from: 'src/manifest.json', to: 'manifest.json' },
+            { from: 'src/images/icons', to: 'images/icons' }
+        ])
     ],
     mode: "production",
     devServer: {
