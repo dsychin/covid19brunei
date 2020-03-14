@@ -1,5 +1,6 @@
 import './scss/style.scss';
 import './js/trend-chart';
+import './js/age-chart';
 
 import data from './js/data.js';
 
