@@ -1,9 +1,9 @@
 module.exports = {
-  "lastUpdated": "2020-03-13 22:53",
+  "lastUpdated": "2020-03-14 18:22",
   "statistics": {
     "cases": {
-      "variance": 12,
-      "total": 37
+      "variance": 3,
+      "total": 40
     },
     "deaths": {
       "variance": 0,
