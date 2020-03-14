@@ -34,6 +34,22 @@ count.map((value, index, array) => {
     return value;
 });
 
+// get count increase
+let increaseCount = data.cases.reduce((acc, val) => {
+    let index = acc.findIndex(a => a.t === val.date);
+    // push if not exist
+    if (index === -1) {
+        acc.push({
+            t: val.date,
+            y: 1
+        })
+    } else {
+        // increment if exists
+        acc[index].y++;
+    }
+    return acc;
+}, []);
+
 // get MALE count for each days
 let maleCount = data.cases.reduce((acc, val) => {
     let index = acc.findIndex(a => a.t === val.date);
@@ -96,30 +112,42 @@ let chart = new Chart(ctx, {
     type: 'line',
     data: {
         datasets: [{
-            label: 'Number of Cases',
+            label: 'Total',
             fill: false,
             borderColor: '#ffc107',
             backgroundColor: '#ffc107',
             data: count
         },
         {
-            label: 'Number of Male Infected',
+            label: 'Male',
             fill: false,
             borderColor: '#1e88e5',
             backgroundColor: '#1e88e5',
             data: maleCount
         },
         {
-            label: 'Number of Female Infected',
+            label: 'Female',
             fill: false,
             borderColor: '#d81b60',
             backgroundColor: '#d81b60',
             data: femaleCount
+        },
+        {
+            label: 'Increase',
+            fill: false,
+            borderColor: '#757575',
+            backgroundColor: '#757575',
+            data: increaseCount
         }]
     },
     options: {
         responsive: true,
         maintainAspectRatio: false,
+        elements: {
+            line: {
+                tension: 0
+            }
+        },
         title: {
             display: true,
             text: 'Brunei COVID-19 Case Trends'
