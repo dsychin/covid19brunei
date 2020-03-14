@@ -55,7 +55,7 @@ module.exports = {
       "date": "2020-03-11",
       "caseNumber": 7,
       "gender": "M",
-      "age": 35
+      "age": 34
     },
     {
       "date": "2020-03-11",
