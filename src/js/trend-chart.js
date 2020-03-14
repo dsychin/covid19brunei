@@ -105,8 +105,8 @@ let chart = new Chart(ctx, {
         datasets: [{
             label: 'Total',
             fill: false,
-            borderColor: '#ffc107',
-            backgroundColor: '#ffc107',
+            borderColor: '#ffa000',
+            backgroundColor: '#ffa000',
             data: count
         },
         {
