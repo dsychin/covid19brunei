@@ -56,8 +56,6 @@ let maleCount = data.cases.reduce((acc, val) => {
     return acc;
 }, []);
 
-console.log(maleCount);
-
 // get male count by age
 let femaleCount = data.cases.reduce((acc, val) => {
     if (acc.length === 0) {
@@ -101,8 +99,6 @@ let femaleCount = data.cases.reduce((acc, val) => {
 
     return acc;
 }, []);
-
-console.log(femaleCount)
 
 let ctx = document.getElementById('age-chart');
 let chart = new Chart(ctx, {
