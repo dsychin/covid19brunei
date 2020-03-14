@@ -236,6 +236,24 @@ module.exports = {
       "caseNumber": 37,
       "gender": "M",
       "age": 28
+    },
+    {
+      "date": "2020-03-14",
+      "caseNumber": 38,
+      "gender": "M",
+      "age": 17
+    },
+    {
+      "date": "2020-03-14",
+      "caseNumber": 39,
+      "gender": "F",
+      "age": 38
+    },
+    {
+      "date": "2020-03-14",
+      "caseNumber": 40,
+      "gender": "F",
+      "age": 1
     }
   ]
 }
