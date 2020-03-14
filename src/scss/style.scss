@@ -29,9 +29,11 @@ body {
 .stats {
   .wrapper {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
     .stat {
-      width: 33.33%;
+      padding: 0 1.5rem;
       text-align: center;
 
       div:first-child {
