@@ -12,14 +12,29 @@ document.getElementById('recover-number').innerText = data.statistics.recovered.
 // get count for each days
 let timeline = [];
 let count = data.cases.reduce((acc, val) => {
-    acc[val.date] = (acc[val.date] || 0)  + 1
+    let index = acc.findIndex(a => a.t === val.date);
+    // push if not exist
+    if (index === -1) {
+        acc.push({
+            t: val.date,
+            y: 1
+        })
+    } else {
+        // increment if exists
+        acc[index].y++;
+    }
     return acc;
-  }, {});
-  console.log(count);
+}, []);
 
-// data.cases.forEach(value => {
-//     if (value.date )
-// })
+// change value to cumulative
+count.map((value, index, array) => {
+    if (index > 0) {
+        value.y = array[index - 1].y + value.y
+    }
+
+    return value;
+});
+console.log(count);
 
 // create chart
 let ctx = document.getElementById('chart');
@@ -31,27 +46,7 @@ let chart = new Chart(ctx, {
             fill: false,
             borderColor: '#dc3545',
             backgroundColor: '#dc3545',
-            data: [
-                {
-                    t: '2020-03-09',
-                    y: 1
-                },
-                {
-                    t: '2020-03-10',
-                    y: 6
-                },
-                {
-                    t: '2020-03-11',
-                    y: 11
-                },
-                {
-                    t: '2020-03-12',
-                    y: 25
-                },
-                {
-                    t: '2020-03-13',
-                    y: 37
-                }]
+            data: count
         }]
     },
     options: {
