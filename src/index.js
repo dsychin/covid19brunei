@@ -10,7 +10,6 @@ document.getElementById('death-number').innerText = data.statistics.deaths.total
 document.getElementById('recover-number').innerText = data.statistics.recovered.total;
 
 // get count for each days
-let timeline = [];
 let count = data.cases.reduce((acc, val) => {
     let index = acc.findIndex(a => a.t === val.date);
     // push if not exist
@@ -34,7 +33,62 @@ count.map((value, index, array) => {
 
     return value;
 });
-console.log(count);
+
+// get MALE count for each days
+let maleCount = data.cases.reduce((acc, val) => {
+    let index = acc.findIndex(a => a.t === val.date);
+    // check if male
+    if (val.gender === 'M') {
+        // push if not exist
+        if (index === -1) {
+            acc.push({
+                t: val.date,
+                y: 1
+            })
+        } else {
+            // increment if exists
+            acc[index].y++;
+        }
+    }
+    return acc;
+}, []);
+
+// change value to cumulative
+maleCount.map((value, index, array) => {
+    if (index > 0) {
+        value.y = array[index - 1].y + value.y
+    }
+
+    return value;
+});
+
+// get FEMALE count for each days
+let femaleCount = data.cases.reduce((acc, val) => {
+    let index = acc.findIndex(a => a.t === val.date);
+    // check if male
+    if (val.gender === 'F') {
+        // push if not exist
+        if (index === -1) {
+            acc.push({
+                t: val.date,
+                y: 1
+            })
+        } else {
+            // increment if exists
+            acc[index].y++;
+        }
+    }
+    return acc;
+}, []);
+
+// change value to cumulative
+femaleCount.map((value, index, array) => {
+    if (index > 0) {
+        value.y = array[index - 1].y + value.y
+    }
+
+    return value;
+});
 
 // create chart
 let ctx = document.getElementById('chart');
@@ -44,9 +98,23 @@ let chart = new Chart(ctx, {
         datasets: [{
             label: 'Number of Cases',
             fill: false,
-            borderColor: '#dc3545',
-            backgroundColor: '#dc3545',
+            borderColor: '#ffc107',
+            backgroundColor: '#ffc107',
             data: count
+        },
+        {
+            label: 'Number of Male Infected',
+            fill: false,
+            borderColor: '#1e88e5',
+            backgroundColor: '#1e88e5',
+            data: maleCount
+        },
+        {
+            label: 'Number of Female Infected',
+            fill: false,
+            borderColor: '#d81b60',
+            backgroundColor: '#d81b60',
+            data: femaleCount
         }]
     },
     options: {
