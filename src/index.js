@@ -1,6 +1,6 @@
 import './scss/style.scss';
 
-import data from './data.json';
+import data from './data.js';
 
 // update statistics
 document.getElementById('last-update').innerText = data.lastUpdated;
@@ -9,6 +9,19 @@ document.getElementById('case-number').innerText = data.statistics.cases.total;
 document.getElementById('death-number').innerText = data.statistics.deaths.total;
 document.getElementById('recover-number').innerText = data.statistics.recovered.total;
 
+// get count for each days
+let timeline = [];
+let count = data.cases.reduce((acc, val) => {
+    acc[val.date] = (acc[val.date] || 0)  + 1
+    return acc;
+  }, {});
+  console.log(count);
+
+// data.cases.forEach(value => {
+//     if (value.date )
+// })
+
+// create chart
 let ctx = document.getElementById('chart');
 let chart = new Chart(ctx, {
     type: 'line',
