@@ -18,3 +18,7 @@ document.getElementById('last-update').innerText = new Date(data.lastUpdated)
 document.getElementById('case-number').innerText = data.statistics.cases.total;
 document.getElementById('death-number').innerText = data.statistics.deaths.total;
 document.getElementById('recover-number').innerText = data.statistics.recovered.total;
+
+$(document).ready( function () {
+    $('#case-details').DataTable();
+} );
