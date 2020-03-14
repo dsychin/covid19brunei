@@ -148,6 +148,10 @@ let chart = new Chart(ctx, {
                 tension: 0
             }
         },
+        tooltips: {
+            mode: 'x',
+            intersect: false
+        },
         title: {
             display: true,
             text: 'Brunei COVID-19 Case Trends'
