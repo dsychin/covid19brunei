@@ -16,244 +16,284 @@ module.exports = {
   },
   "cases": [
     {
-      "date": "2020-03-09",
+      "date": "09-03-20",
       "caseNumber": 1,
       "gender": "M",
-      "age": 53
+      "age": 53,
+      "description": "The case is a 53-year old local male pensioner who went to Kuala Lumpur, Malaysia with three friends, also locals, on 27 February 2020. He attended a religious conggregation (tabligh) at the Jamek Sri Petaling Mosque, Kuala Lumpur which was reported to have been attended by more than 100 people coming from other places, including Malaysia, Indonesia and Thailand. He and his friends returned home on 3 March 2020 through Miri, Sarawak on Air Asia flight AK5651. He also went on a day trip to Miri on 6 March 2020 and stopped for Friday prayer at Kg Sg Teraban Mosque. He started to develop symptoms in the same evening and went to the Emergency Department, Raja Isteri Pengiran Anak Saleha Hospital on 8 March 2020 for treatment and had nasopharyngeal swab taken for COVID-19 test. He is known to have chronic illnesses such as diabetes and cardiovascular disease. He was taken to the National Isolation Centre in the Tutong District on 9 March 2020 i.e. as soon as the preliminary results was obtained."
     },
     {
-      "date": "2020-03-10",
+      "date": "10-03-20",
       "caseNumber": 2,
       "gender": "M",
-      "age": 61
+      "age": 61,
+      "description": "A friend of Case 1 who attended the same religious conggregation (tabligh) in Kuala Lumpur, Malaysia and they flew back together to Brunei Darussalam on 3 March 2020. He started to develop symptoms (fever and difficulty breathing) on 7 March 2020. He is currently in a stable condition and no longer has a fever."
     },
     {
-      "date": "2020-03-10",
+      "date": "10-03-20",
       "caseNumber": 3,
       "gender": "M",
-      "age": 30
+      "age": 30,
+      "description": "Case 3 is the son to Case 2, aged 30, who also attended the same religious event in Kuala Lumpur, Malaysia. He returned to Brunei Darussalam on 2 March 2020 on Royal Brunei flight BI872 and started showing symptoms (fever and body aches) on 9 March 2020."
     },
     {
-      "date": "2020-03-10",
+      "date": "10-03-20",
       "caseNumber": 4,
       "gender": "F",
-      "age": 46
+      "age": 46,
+      "description": "Case 4 is the wife of Case 1, aged 46. She has no travel history to Kuala Lumpur in the period of 14 days prior to showing symptoms (cough) on 9 March 2020"
     },
     {
-      "date": "2020-03-10",
+      "date": "10-03-20",
       "caseNumber": 5,
       "gender": "M",
-      "age": 12
+      "age": 12,
+      "description": "Case 5 and Case 6 are children of Case 1, aged 12 and 5 years old with no travel history to Kuala Lumpur. Case 5 has no symptoms, however Case 6 developed a cough on 10 March 2020"
     },
     {
-      "date": "2020-03-10",
+      "date": "10-03-20",
       "caseNumber": 6,
       "gender": "M",
-      "age": 5
+      "age": 5,
+      "description": "Case 5 and Case 6 are children of Case 1, aged 12 and 5 years old with no travel history to Kuala Lumpur. Case 5 has no symptoms, however Case 6 developed a cough on 10 March 2020"
     },
     {
-      "date": "2020-03-11",
+      "date": "11-03-20",
       "caseNumber": 7,
       "gender": "M",
-      "age": 34
+      "age": 34,
+      "description": "Case 7 aged 34 years old and Case 8 aged 32 years old are Bruneian locals who also attended the same religious conggregation (tabligh) in Kuala Lumpur, Malaysia. They are from the same family who traveled together and returned to Brunei Darussalam on 4 March 2020 on Malaysia Airlines flight MH2594 from Kuala Lumpur to Miri, Sarawak. Case 7 has not been showing any signs of infection while Case 8 started developing symptoms on 10 March 2020."
     },
     {
-      "date": "2020-03-11",
+      "date": "11-03-20",
       "caseNumber": 8,
       "gender": "M",
-      "age": 32
+      "age": 32,
+      "description": "Case 7 aged 34 years old and Case 8 aged 32 years old are Bruneian locals who also attended the same religious conggregation (tabligh) in Kuala Lumpur, Malaysia. They are from the same family who traveled together and returned to Brunei Darussalam on 4 March 2020 on Malaysia Airlines flight MH2594 from Kuala Lumpur to Miri, Sarawak. Case 7 has not been showing any signs of infection while Case 8 started developing symptoms on 10 March 2020."
     },
     {
-      "date": "2020-03-11",
+      "date": "11-03-20",
       "caseNumber": 9,
       "gender": "M",
-      "age": 59
+      "age": 59,
+      "description": "Case 9 is a 59-year-old local man who also attended the same event in Kuala Lumpur, Malaysia. He returned to Brunei Darussalam on 3 March 2020 on Air Asia flight AK3541 from Kuala Lumpur to Miri, Sarawak. He started showing symptoms (sore throat) on 5 March 2020 and had remained at home since then."
     },
     {
-      "date": "2020-03-11",
+      "date": "11-03-20",
       "caseNumber": 10,
       "gender": "F",
-      "age": 33
+      "age": 33,
+      "description": "Case 10, aged 33 years is the wife of Case 3 and Case 11, aged 52 years is the wife of Case 9. Case 10 has not be showing any symptoms while Case 11 developed symptoms (cough) on 10 March 2020. Both cases have no travel history to Kuala Lumpur."
     },
     {
-      "date": "2020-03-11",
+      "date": "11-03-20",
       "caseNumber": 11,
       "gender": "F",
-      "age": 52
+      "age": 52,
+      "description": "Case 10, aged 33 years is the wife of Case 3 and Case 11, aged 52 years is the wife of Case 9. Case 10 has not be showing any symptoms while Case 11 developed symptoms (cough) on 10 March 2020. Both cases have no travel history to Kuala Lumpur."
     },
     {
-      "date": "2020-03-12",
+      "date": "12-03-20",
       "caseNumber": 12,
       "gender": "M",
-      "age": 53
+      "age": 53,
+      "description": "Case 12 is a local man aged 53, who attended the religious conggregation (tabligh) in Kuala Lumpur, Malaysia. He returned to Brunei on 4 March 2020 on Air Asia flight AK5644 from Miri, Sarawak. He traveled back to Brunei Darussalam with Case 7, Case 8 and Case 21. He started showing symptoms (fever) on 6 March 2020"
     },
     {
-      "date": "2020-03-12",
+      "date": "12-03-20",
       "caseNumber": 13,
       "gender": "M",
-      "age": 45
+      "age": 45,
+      "description": "Case 13 is a local man aged 45, who also attended the same religious conggregation in Kuala Lumpur. He returned to Brunei on Air Asia flight AK278 (seat no. 19A) on 3 March 2020 and started showing symptoms (headache and cough) the next day."
     },
     {
-      "date": "2020-03-12",
+      "date": "12-03-20",
       "caseNumber": 14,
       "gender": "F",
-      "age": 44
+      "age": 44,
+      "description": "Case 14 is the wife of Case 13 who has no travel history to Kuala Lumpur. She is currently not having any symptoms."
     },
     {
-      "date": "2020-03-12",
+      "date": "12-03-20",
       "caseNumber": 15,
       "gender": "M",
-      "age": 33
+      "age": 33,
+      "description": "Case 15 is a local man aged 33 who also attended the religious event in Kuala Lumpur. He returned to Brunei on 3 March 2020 on Air Asia flight AK278 and has not showed any symptoms."
     },
     {
-      "date": "2020-03-12",
+      "date": "12-03-20",
       "caseNumber": 16,
       "gender": "M",
-      "age": 63
+      "age": 63,
+      "description": "Case 16 is a local man aged 63, who also attended the religious event in Kuala Lumpur. He returned home on 5 March 2020 on Royal Brunei flight BI872 and is not having any symptoms."
     },
     {
-      "date": "2020-03-12",
+      "date": "12-03-20",
       "caseNumber": 17,
       "gender": "M",
-      "age": 33
+      "age": 33,
+      "description": "Case 17 is a local man aged 33 who also attended the religious gathering in Kuala Lumpur. He returned home on 3 March 2020 on Royal Brunei flight BI874 to Bandar Seri Begawan and is not showing any symptoms."
     },
     {
-      "date": "2020-03-12",
+      "date": "12-03-20",
       "caseNumber": 18,
       "gender": "F",
-      "age": 30
+      "age": 30,
+      "description": "Case 18, 30 years, is the wife of Case 8 who has no travel history to Kuala Lumpur. She is having mild symptoms (cough and flu)."
     },
     {
-      "date": "2020-03-12",
+      "date": "12-03-20",
       "caseNumber": 19,
       "gender": "M",
-      "age": 34
+      "age": 34,
+      "description": "Case 19 is a local man aged 34 with a travel history to Kuala Lumpur. He was assigned as the driver for Bruneians attending the religious conggregation (tabligh) but did not participate in the event. He returned to Bandar Seri Begawan on 3 March 2020 on Royal Brunei flight BI874 and is currently not showing any symptoms."
     },
     {
-      "date": "2020-03-12",
+      "date": "12-03-20",
       "caseNumber": 20,
       "gender": "M",
-      "age": 64
+      "age": 64,
+      "description": "Case 20 is a local man aged 64 who also attended the religious event in Kuala Lumpur. He went to Kuala Lumpur on 27 February 2020 and returned to Bandar Seri Begawan on 29 Februari 2020 on Air Asia flight AK278. He started showing symptoms (cough and flu) on 9 March 2020"
     },
     {
-      "date": "2020-03-12",
+      "date": "12-03-20",
       "caseNumber": 21,
       "gender": "M",
-      "age": 35
+      "age": 35,
+      "description": "Case 21 is a local man aged 35, who also attended the religious gathering in Kuala Lumpur. He left Kuala Lumpur on 4 March 2020 on Air Asia flight AK5644 to Miri, Sarawak. He then shared the same transport with Case 7, Case 8 and Case 12 to return to Brunei. He is not showing any symptoms."
     },
     {
-      "date": "2020-03-12",
+      "date": "12-03-20",
       "caseNumber": 22,
       "gender": "M",
-      "age": 31
+      "age": 31,
+      "description": "Case 22 is a local man aged 31, who is a co-worker to Case 3. He has no travel history to Kuala Lumpur and is not showing any symptoms. He was tested for COVID-19 as part of contact investigation for Case 3."
     },
     {
-      "date": "2020-03-12",
+      "date": "12-03-20",
       "caseNumber": 23,
       "gender": "M",
-      "age": 63
+      "age": 63,
+      "description": "Case 23 is a local man aged 63 who also attended the religious gathering in Kuala Lumpur and he is not showing any symptoms."
     },
     {
-      "date": "2020-03-12",
+      "date": "12-03-20",
       "caseNumber": 24,
       "gender": "M",
-      "age": 30
+      "age": 30,
+      "description": "Case 24 is a local man aged 30 who also attended the religious event in Kuala Lumpur and is currently not showing any symptoms."
     },
     {
-      "date": "2020-03-12",
+      "date": "12-03-20",
       "caseNumber": 25,
       "gender": "M",
-      "age": 64
+      "age": 64,
+      "description": "Meanwhile, Case 25 is a local man aged 64 who has a travel history to Kuala Lumpur and Cambodia but did not participate in the religious event held at Masjid Jamek Seri Petaling, Kuala Lumpur. He returned back to Brunei on 4 March 2020 and started developing symptoms on 8 March 2020."
     },
     {
-      "date": "2020-03-13",
+      "date": "13-03-20",
       "caseNumber": 26,
       "gender": "F",
-      "age": 46
+      "age": 46,
+      "description": "Case 26 is a local woman aged 46, wife of case 12. She has no recent travel history to Kuala Lumpur and is currently not having any symptoms."
     },
     {
-      "date": "2020-03-13",
+      "date": "13-03-20",
       "caseNumber": 27,
       "gender": "M",
-      "age": 21
+      "age": 21,
+      "description": "Case 27, aged 21 is a son of Case 12. He has no recent travel history to Kuala Lumpur and had only started complaining of body aches today."
     },
     {
-      "date": "2020-03-13",
+      "date": "13-03-20",
       "caseNumber": 28,
       "gender": "M",
-      "age": 25
+      "age": 25,
+      "description": "Case 28, aged 25 is a son of Case 12. He has no recent travel history to Kuala Lumpur and has no symptoms."
     },
     {
-      "date": "2020-03-13",
+      "date": "13-03-20",
       "caseNumber": 29,
       "gender": "M",
-      "age": 16
+      "age": 16,
+      "description": "Case 29, aged 16 is a son of Case 12. He has no recent travel history to Kuala Lumpur and started having symptoms (cough and flu) on 9 March 2020."
     },
     {
-      "date": "2020-03-13",
+      "date": "13-03-20",
       "caseNumber": 30,
       "gender": "F",
-      "age": 13
+      "age": 13,
+      "description": "Case 30, aged 13 is a daughter of Case 12. She has no travel history to Kuala Lumpur and has no symptoms."
     },
     {
-      "date": "2020-03-13",
+      "date": "13-03-20",
       "caseNumber": 31,
       "gender": "M",
-      "age": 64
+      "age": 64,
+      "description": "Case 31 is a local man, aged 64 who recently travelled to Indonesia and Malaysia. He went to Kuala Lumpur via Labuan on 17 February 2020 and then on to Jogjakarta, Indonesia. He returned to Brunei on 4 March 2020 via Kuala Lumpur (on transit) and then on to Labuan on Air Asia flight AK5175. He traveled back to Brunei on the same day. He started having a cough since 10 March 2020."
     },
     {
-      "date": "2020-03-13",
+      "date": "13-03-20",
       "caseNumber": 32,
       "gender": "F",
-      "age": 25
+      "age": 25,
+      "description": "Case 32 is a local woman aged 25, wife of Case 19. She has no recent travel history to Kuala Lumpur and has no symptoms."
     },
     {
-      "date": "2020-03-13",
+      "date": "13-03-20",
       "caseNumber": 33,
       "gender": "M",
-      "age": 39
+      "age": 39,
+      "description": "Case 33, aged 39 is a brother of Case 13. He has no recent travel history to Kuala Lumpur and has no symptoms."
     },
     {
-      "date": "2020-03-13",
+      "date": "13-03-20",
       "caseNumber": 34,
       "gender": "F",
-      "age": 2
+      "age": 2,
+      "description": "Case 34, aged 2 is a niece of Case 13. She has no recent travel history to Kuala Lumpur and has no symptoms."
     },
     {
-      "date": "2020-03-13",
+      "date": "13-03-20",
       "caseNumber": 35,
       "gender": "M",
-      "age": 60
+      "age": 60,
+      "description": "Case 35 is a local man aged 60 who attended the religious gathering in Kuala Lumpur, Malaysia from 28 February to 3 March 2020. He then flew to New Delhi, India on 4 March 2020 with 3 other friends who also attended same the religious gathering in Kuala Lumpur. He returned to Brunei on 11 March 2020 on Royal Brunei Airlines BI874 (seat no 27K). He only started having a cough today. His 3 friends are still overseas and are advised to undergo COVID-19 screening as soon as possible."
     },
     {
-      "date": "2020-03-13",
+      "date": "13-03-20",
       "caseNumber": 36,
       "gender": "M",
-      "age": 56
+      "age": 56,
+      "description": "Case 36 is a local man aged 56 years old who also attended the religious gathering in Kuala Lumpur. He returned to Brunei on 5 March 2020 on Royal Brunei Airlines BI872 and started showing symptoms (fever, cough and flu) on 7 March 2020."
     },
     {
-      "date": "2020-03-13",
+      "date": "13-03-20",
       "caseNumber": 37,
       "gender": "M",
-      "age": 28
+      "age": 28,
+      "description": "Case 37 is a local man aged 28 years old. This case did not participate in the religious gathering in Kuala Lumpur but attended a religious gathering (tabligh) in Brunei Darussalam on 5 March 2020 which was also attended by several of the people who went to the religious gathering in Kuala Lumpur."
     },
     {
-      "date": "2020-03-14",
+      "date": "14-03-20",
       "caseNumber": 38,
       "gender": "M",
-      "age": 17
+      "age": 17,
+      "description": ""
     },
     {
-      "date": "2020-03-14",
+      "date": "14-03-20",
       "caseNumber": 39,
       "gender": "F",
-      "age": 38
+      "age": 38,
+      "description": ""
     },
     {
-      "date": "2020-03-14",
+      "date": "14-03-20",
       "caseNumber": 40,
       "gender": "F",
-      "age": 1
+      "age": 1,
+      "description": ""
     }
   ]
 }
