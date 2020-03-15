@@ -4,7 +4,16 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
-    entry: ['@babel/polyfill', './src/index.js'],
+    entry: {
+        index: './src/index.js',
+        polyfill: '@babel/polyfill',
+    },
+    optimization: {
+        splitChunks: {
+            minSize: 30000,
+            chunks: 'all',
+        },
+    },
     plugins: [
         new MiniCssExtractPlugin({
             filename: '[name].[contenthash].css'
