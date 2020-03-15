@@ -279,21 +279,21 @@ module.exports = {
       "caseNumber": 38,
       "gender": "M",
       "age": 17,
-      "description": ""
+      "description": "Case 38, a local man aged 17 years old is neither studying or employed. He had attended a religious congregation (tabligh) in Kuala Lumpur and returned home on 3 March 2020 by boarding Air Asia from Kuala Lumpur to Miri, Sarawak. He has no signs of infection."
     },
     {
       "date": "2020-03-14",
       "caseNumber": 39,
       "gender": "F",
       "age": 38,
-      "description": ""
+      "description": "Case 39, aged 38 years old is the sister-in-law of Case 13 and the wife of Case 33. She attended the family dinner with Case 13 and Case 33 on 4 March 2020. She has no history of traveling to Kuala Lumpur and has no signs of infection"
     },
     {
       "date": "2020-03-14",
       "caseNumber": 40,
       "gender": "F",
       "age": 1,
-      "description": ""
+      "description": "Case 40, aged 9 months old is the daughter of Case 15 who has no history of travel to Kuala Lumpur and has no signs of infection."
     }
   ]
 }
