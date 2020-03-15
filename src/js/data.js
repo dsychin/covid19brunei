@@ -294,6 +294,76 @@ module.exports = {
       "gender": "F",
       "age": 1,
       "description": "Case 40, aged 9 months old is the daughter of Case 15 who has no history of travel to Kuala Lumpur and has no signs of infection."
+    },
+    {
+      "date": "2020-03-15",
+      "caseNumber": 41,
+      "gender": "F",
+      "age": 31,
+      "description": ""
+    },
+    {
+      "date": "2020-03-15",
+      "caseNumber": 42,
+      "gender": "F",
+      "age": 55,
+      "description": ""
+    },
+    {
+      "date": "2020-03-15",
+      "caseNumber": 43,
+      "gender": "M",
+      "age": 29,
+      "description": ""
+    },
+    {
+      "date": "2020-03-15",
+      "caseNumber": 44,
+      "gender": "F",
+      "age": 23,
+      "description": ""
+    },
+    {
+      "date": "2020-03-15",
+      "caseNumber": 45,
+      "gender": "F",
+      "age": 56,
+      "description": ""
+    },
+    {
+      "date": "2020-03-15",
+      "caseNumber": 46,
+      "gender": "M",
+      "age": 56,
+      "description": ""
+    },
+    {
+      "date": "2020-03-15",
+      "caseNumber": 47,
+      "gender": "M",
+      "age": 68,
+      "description": ""
+    },
+    {
+      "date": "2020-03-15",
+      "caseNumber": 48,
+      "gender": "M",
+      "age": 20,
+      "description": ""
+    },
+    {
+      "date": "2020-03-15",
+      "caseNumber": 49,
+      "gender": "M",
+      "age": 24,
+      "description": ""
+    },
+    {
+      "date": "2020-03-15",
+      "caseNumber": 50,
+      "gender": "F",
+      "age": 55,
+      "description": ""
     }
   ]
 }
