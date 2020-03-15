@@ -32,6 +32,7 @@
   <meta property="twitter:image" content="https://covid19brunei.com/${require('./images/covid-19.jpg')}">
 
   <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css">
 </head>
 
 <body>
@@ -89,10 +90,7 @@
             <thead>
               <tr>
                 <th>
-                  Case Number
-                </th>
-                <th>
-                  Date Added
+                  Case
                 </th>
                 <th>
                   Age
@@ -100,8 +98,11 @@
                 <th>
                   Gender
                 </th>
-                <th>
+                <th class="none">
                   Description
+                </th>
+                <th>
+                  Date Added
                 </th>
               </tr>
             </thead>
@@ -197,6 +198,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160663118-1"></script>
   <script>
