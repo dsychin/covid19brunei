@@ -3,7 +3,7 @@
 http://covid19brunei.com
 
 ## Instructions to run locally
-
+test
 1. Clone this repository
 2. Run `npm install` to install dependencies.
 3. Run `npm start`.
