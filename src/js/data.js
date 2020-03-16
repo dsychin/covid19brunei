@@ -300,70 +300,70 @@ module.exports = {
       "caseNumber": 41,
       "gender": "F",
       "age": 31,
-      "description": ""
+      "description": "Case 41, aged 31 years old is the wife of Case 15 (tabligh cluster). She has no travel history and started developing symptoms (cough and flu) on 12 March 2020."
     },
     {
       "date": "2020-03-15",
       "caseNumber": 42,
       "gender": "F",
       "age": 55,
-      "description": ""
+      "description": "Case 42, aged 55 years old is the sister of Case 12 (tabligh cluster). She has no travel history and started developing symptoms on 9 March 2020."
     },
     {
       "date": "2020-03-15",
       "caseNumber": 43,
       "gender": "M",
       "age": 29,
-      "description": ""
+      "description": "Case 43 is a local man, aged 29 years. He did not attend the religious congregation (tabligh) in Kuala Lumpur but he attended a follow-up religious congregation (tabligh) on 5 March 2020 in Brunei Darussalam, that was also attended by several other people who attended the gathering in Kuala Lumpur."
     },
     {
       "date": "2020-03-15",
       "caseNumber": 44,
       "gender": "F",
       "age": 23,
-      "description": ""
+      "description": "Case 44, aged 23 years, is a contact of Case 25. This case attended a family gathering with Case 25 on 8 March 2020 and started developing symptoms (fever) on 10 March 2020."
     },
     {
       "date": "2020-03-15",
       "caseNumber": 45,
       "gender": "F",
       "age": 56,
-      "description": ""
+      "description": "Case 45, aged 56 years, is a contact of Case 25. She also attended the same gathering with Case 25 on 8 March 2020 and started developing fever and flu on 12 March 2020."
     },
     {
       "date": "2020-03-15",
       "caseNumber": 46,
       "gender": "M",
       "age": 56,
-      "description": ""
+      "description": "Case 46, aged 56 years, is a friend of Case 8 (tabligh cluster) that went with him on 9 March 2020. He started developing fever on 12 March 2020."
     },
     {
       "date": "2020-03-15",
       "caseNumber": 47,
       "gender": "M",
       "age": 68,
-      "description": ""
+      "description": "Case 47 is a local man aged 68 years old. He didn't attend the religious congregation (tabligh) in Kuala Lumpur but attended a tabligh gathering on 5 March 2020 in Brunei Darussalam that was also attended the gathering in Kuala Lumpur."
     },
     {
       "date": "2020-03-15",
       "caseNumber": 48,
       "gender": "M",
       "age": 20,
-      "description": ""
+      "description": "Case 48 is a local man aged 20 years. He did not attend the gathering in Kuala Lumpur but attended the tabligh gathering on 5 March 2020 in Brunei Darussalam that was also attended by several others who went to the religious congregation (tabligh) in Kuala Lumpur."
     },
     {
       "date": "2020-03-15",
       "caseNumber": 49,
       "gender": "M",
       "age": 24,
-      "description": ""
+      "description": "Case 49, aged 24, is related to Case 25. This case attended a family gathering with Case 25 on 8 March 2020 and was asymptomatic."
     },
     {
       "date": "2020-03-15",
       "caseNumber": 50,
       "gender": "F",
       "age": 55,
-      "description": ""
+      "description": "Case 50, aged 55 years old is the wife of Case 36. She has no travel history and does not have any symptoms of infection."
     }
   ]
 }
