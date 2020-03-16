@@ -364,6 +364,34 @@ module.exports = {
       "gender": "F",
       "age": 55,
       "description": "Case 50, aged 55 years old is the wife of Case 36. She has no travel history and does not have any symptoms of infection."
+    },
+    {
+      "date": "2020-03-16",
+      "caseNumber": 51,
+      "gender": "F",
+      "age": 29,
+      "description": ""
+    },
+    {
+      "date": "2020-03-16",
+      "caseNumber": 52,
+      "gender": "F",
+      "age": 27,
+      "description": ""
+    },
+    {
+      "date": "2020-03-16",
+      "caseNumber": 53,
+      "gender": "M",
+      "age": 42,
+      "description": ""
+    },
+    {
+      "date": "2020-03-16",
+      "caseNumber": 54,
+      "gender": "F",
+      "age": 39,
+      "description": ""
     }
   ]
 }
