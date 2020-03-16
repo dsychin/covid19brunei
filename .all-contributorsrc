@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "dsychin",
+      "name": "Desmond Chin",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/19268668?v=4",
+      "profile": "https://www.linkedin.com/in/dsychin/",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "covid19brunei",
+  "projectOwner": "dsychin",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
