@@ -6,7 +6,9 @@
     "start": "webpack-dev-server --open",
     "build": "webpack"
   },
-  "dependencies": {},
+  "dependencies": {
+    "numeral": "^2.0.6"
+  },
   "devDependencies": {
     "@babel/core": "^7.8.7",
     "@babel/polyfill": "^7.8.7",

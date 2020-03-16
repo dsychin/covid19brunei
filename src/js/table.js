@@ -17,8 +17,6 @@ data.cases.forEach(value => {
         </tr>`
 })
 
-console.log(tableRows);
-
 $('#case-details tbody').html(tableRows);
 
 $(document).ready( function () {
