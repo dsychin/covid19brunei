@@ -1,9 +1,9 @@
 module.exports = {
-  "lastUpdated": "2020-03-15 19:09",
+  "lastUpdated": "2020-03-16 17:40",
   "statistics": {
     "cases": {
-      "variance": 10,
-      "total": 50
+      "variance": 4,
+      "total": 54
     },
     "deaths": {
       "variance": 0,
@@ -364,6 +364,34 @@ module.exports = {
       "gender": "F",
       "age": 55,
       "description": "Case 50, aged 55 years old is the wife of Case 36. She has no travel history and does not have any symptoms of infection."
+    },
+    {
+      "date": "2020-03-16",
+      "caseNumber": 51,
+      "gender": "F",
+      "age": 29,
+      "description": ""
+    },
+    {
+      "date": "2020-03-16",
+      "caseNumber": 52,
+      "gender": "F",
+      "age": 27,
+      "description": ""
+    },
+    {
+      "date": "2020-03-16",
+      "caseNumber": 53,
+      "gender": "M",
+      "age": 42,
+      "description": ""
+    },
+    {
+      "date": "2020-03-16",
+      "caseNumber": 54,
+      "gender": "F",
+      "age": 39,
+      "description": ""
     }
   ]
 }

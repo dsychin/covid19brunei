@@ -42,10 +42,14 @@
 2020-03-15,41,F,31,"Case 41, aged 31 years old is the wife of Case 15 (tabligh cluster). She has no travel history and started developing symptoms (cough and flu) on 12 March 2020."
 2020-03-15,42,F,55,"Case 42, aged 55 years old is the sister of Case 12 (tabligh cluster). She has no travel history and started developing symptoms on 9 March 2020."
 2020-03-15,43,M,29,"Case 43 is a local man, aged 29 years. He did not attend the religious congregation (tabligh) in Kuala Lumpur but he attended a follow-up religious congregation (tabligh) on 5 March 2020 in Brunei Darussalam, that was also attended by several other people who attended the gathering in Kuala Lumpur."
-2020-03-15,44,F,23,"Case 44, aged 23 years, is a contact of Case 25. This case attended a family gathering with Case 25 on 8 March 2020 and started developing symptoms (fever) on 10 March 2020.
+2020-03-15,44,F,23,"Case 44, aged 23 years, is a contact of Case 25. This case attended a family gathering with Case 25 on 8 March 2020 and started developing symptoms (fever) on 10 March 2020."
 2020-03-15,45,F,56,"Case 45, aged 56 years, is a contact of Case 25. She also attended the same gathering with Case 25 on 8 March 2020 and started developing fever and flu on 12 March 2020."
 2020-03-15,46,M,56,"Case 46, aged 56 years, is a friend of Case 8 (tabligh cluster) that went with him on 9 March 2020. He started developing fever on 12 March 2020."
-2020-03-15,47,M,68,"Case 47 is a local man aged 68 years old. He didn't attend the religious congregation (tabligh) in Kuala Lumpur but attended a tabligh gathering on 5 March 2020 in Brunei Darussalam that was also attended the gathering in Kuala Lumpur."
-2020-03-15,48,M,20,"Case 48 is a local man aged 20 years. He did not attend the gathering in Kuala Lumpur but attended the tabligh gathering on 5 March 2020 in Brunei Darussalam that was also attended by several others who went to the religious congregation (tabligh) in Kuala Lumpur."
+2020-03-15,47,M,68,Case 47 is a local man aged 68 years old. He didn't attend the religious congregation (tabligh) in Kuala Lumpur but attended a tabligh gathering on 5 March 2020 in Brunei Darussalam that was also attended the gathering in Kuala Lumpur.
+2020-03-15,48,M,20,Case 48 is a local man aged 20 years. He did not attend the gathering in Kuala Lumpur but attended the tabligh gathering on 5 March 2020 in Brunei Darussalam that was also attended by several others who went to the religious congregation (tabligh) in Kuala Lumpur.
 2020-03-15,49,M,24,"Case 49, aged 24, is related to Case 25. This case attended a family gathering with Case 25 on 8 March 2020 and was asymptomatic."
 2020-03-15,50,F,55,"Case 50, aged 55 years old is the wife of Case 36. She has no travel history and does not have any symptoms of infection."
+2020-03-16,51,F,29,
+2020-03-16,52,F,27,
+2020-03-16,53,M,42,
+2020-03-16,54,F,39,
