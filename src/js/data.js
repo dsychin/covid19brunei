@@ -392,6 +392,20 @@ module.exports = {
       "gender": "F",
       "age": 39,
       "description": "Case 54, aged 39 is a contact of Case 30, wherein Case 30 is also part of the first generation tabligh cluster. Case 30 does not have a travel history and had suffered from coughs and sore throat from 12 Mac 2020."
+    },
+    {
+      "date": "2020-03-17",
+      "caseNumber": 55,
+      "gender": "M",
+      "age": 21,
+      "description": ""
+    },
+    {
+      "date": "2020-03-17",
+      "caseNumber": 56,
+      "gender": "M",
+      "age": 17,
+      "description": ""
     }
   ]
 }
