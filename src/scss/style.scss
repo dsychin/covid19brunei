@@ -46,20 +46,23 @@ h1 {
 .stats {
   h3 {
     text-align: center;
-    margin: 2rem 0 0;
+    margin: 1rem 0 0;
   }
 
   .wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
 
     .stat {
       padding: 0 1rem;
       text-align: center;
 
       div:first-child {
-        font-size: 3rem;
+        font-size: 2rem;
+        font-weight: bold;
       }
 
       &:nth-child(1) {
