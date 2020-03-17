@@ -370,28 +370,28 @@ module.exports = {
       "caseNumber": 51,
       "gender": "F",
       "age": 29,
-      "description": ""
+      "description": "Case 51, aged 29 is a colleague of Case 37, wherein Case 37 is a part of the first generation tabligh cluster. Case 51 does not have a travel history and has not shown any symptoms of the virus."
     },
     {
       "date": "2020-03-16",
       "caseNumber": 52,
       "gender": "F",
       "age": 27,
-      "description": ""
+      "description": "Case 52, aged 27 is the wife of Case 43, wherein Case 43 is also part of the first generation tabligh cluster. Case 43 does not have a travel history and had a fever, coughs, headaches and fatigue beginning 12 March 2020."
     },
     {
       "date": "2020-03-16",
       "caseNumber": 53,
       "gender": "M",
       "age": 42,
-      "description": ""
+      "description": "Case 53, a British citizen aged 42 who has family members in Brunei. Case 53 arrived in the Sultanate on 9 Mac 2020 onboard the Royal Brunei flight BI004. Prior to landing in Brunei, Case 53 had gone to Switzerland and several cities in the United Kingdom. Case 53 had a fever, sore throat, cold, coughs and difficulty breathing from 14 Mac 2020."
     },
     {
       "date": "2020-03-16",
       "caseNumber": 54,
       "gender": "F",
       "age": 39,
-      "description": ""
+      "description": "Case 54, aged 39 is a contact of Case 30, wherein Case 30 is also part of the first generation tabligh cluster. Case 30 does not have a travel history and had suffered from coughs and sore throat from 12 Mac 2020."
     }
   ]
 }
