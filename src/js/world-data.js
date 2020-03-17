@@ -23,10 +23,10 @@ $.get('https://covid-19-api-b9p7dmxht.now.sh/api/confirmed', (data) => {
 
     data.forEach(value => {
         tableRows += `<tr>
-            <td>${value.countryRegion}</td>
-            <td>${value.confirmed}</td>
-            <td>${value.recovered}</td>
-            <td>${value.deaths}</td>
+            <td>${value.provinceState ? value.provinceState + ', ' : ''}${value.countryRegion}</td>
+            <td>${numeral(value.confirmed).format(0,0)}</td>
+            <td>${numeral(value.recovered).format(0,0)}</td>
+            <td>${numeral(value.deaths).format(0,0)}</td>
             </tr>`
     })
 
