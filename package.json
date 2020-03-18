@@ -12,10 +12,12 @@
     "prop-types": "^15.7.2",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
+    "react-gtm-module": "^2.0.8",
     "react-scripts": "3.4.0"
   },
   "devDependencies": {
-    "node-sass": "^4.13.1"
+    "node-sass": "^4.13.1",
+    "preval.macro": "^4.0.0"
   },
   "scripts": {
     "start": "react-scripts start",

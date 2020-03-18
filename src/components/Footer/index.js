@@ -1,6 +1,6 @@
 import React from "react";
 
-const Footer = () => (
+const Footer = ({ date }) => (
   <footer>
     <p>
       Source: Press Release from{" "}
@@ -56,7 +56,7 @@ const Footer = () => (
     <br />
     <p>
       Last version built on{" "}
-      {new Date().toLocaleString("en-SG", {
+      {new Date(date).toLocaleString("en-SG", {
         timeZone: "Asia/Singapore",
         day: "numeric",
         month: "long",
