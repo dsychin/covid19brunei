@@ -1,5 +1,5 @@
 module.exports = {
-  "lastUpdated": "2020-03-17 17:12",
+  "lastUpdated": "2020-03-18 15:05",
   "statistics": {
     "cases": {
       "variance": 2,
@@ -398,14 +398,14 @@ module.exports = {
       "caseNumber": 55,
       "gender": "M",
       "age": 21,
-      "description": ""
+      "description": "Case 55, aged 21 is part of the second generation of the Kuala Lumpur tabligh cluster wherein the said person was not directly associated with the religious gathering in Kuala Lumpur, but had close association with the tabligh group. Case 55 is currently undergoing isolation at the National Isolation Centre in Tutong."
     },
     {
       "date": "2020-03-17",
       "caseNumber": 56,
       "gender": "M",
       "age": 17,
-      "description": ""
+      "description": "Case 56 is a local male aged 17 years old. He did not participate in the tabligh gathering in Kuala Lumpur but was in attendance at a tabligh gathering in Brunei Darussalam on 5 March 2020 that was also attended by some of the members who had been at the Kuala Lumpur gathering."
     }
   ]
 }
