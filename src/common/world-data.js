@@ -1,3 +1,4 @@
+// TODO: TO BE REMOVED
 import numeral from 'numeral';
 
 $.get('https://covid-19-api-b9p7dmxht.now.sh/api', (data) => {
