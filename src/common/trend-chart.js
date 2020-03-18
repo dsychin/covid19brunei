@@ -1,3 +1,4 @@
+// TODO: TO BE REMOVED
 import data from './data.js';
 
 // get count for each days

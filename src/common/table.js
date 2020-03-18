@@ -1,3 +1,5 @@
+// TODO: TO BE REMOVED
+
 import data from './data.js';
 
 // generate table
