@@ -1,9 +1,9 @@
 module.exports = {
-  "lastUpdated": "2020-03-18 15:05",
+  "lastUpdated": "2020-03-19 17:13",
   "statistics": {
     "cases": {
-      "variance": 2,
-      "total": 56
+      "variance": 5,
+      "total": 73
     },
     "deaths": {
       "variance": 0,
@@ -406,6 +406,90 @@ module.exports = {
       "gender": "M",
       "age": 17,
       "description": "Case 56 is a local male aged 17 years old. He did not participate in the tabligh gathering in Kuala Lumpur but was in attendance at a tabligh gathering in Brunei Darussalam on 5 March 2020 that was also attended by some of the members who had been at the Kuala Lumpur gathering."
+    },
+    {
+      "date": "2020-03-18",
+      "caseNumber": 57,
+      "gender": "M",
+      "age": 53,
+      "description": ""
+    },
+    {
+      "date": "2020-03-18",
+      "caseNumber": 58,
+      "gender": "F",
+      "age": 42,
+      "description": ""
+    },
+    {
+      "date": "2020-03-18",
+      "caseNumber": 59,
+      "gender": "F",
+      "age": 13,
+      "description": ""
+    },
+    {
+      "date": "2020-03-18",
+      "caseNumber": 60,
+      "gender": "F",
+      "age": 13,
+      "description": ""
+    },
+    {
+      "date": "2020-03-18",
+      "caseNumber": 61,
+      "gender": "M",
+      "age": 12,
+      "description": ""
+    },
+    {
+      "date": "2020-03-18",
+      "caseNumber": 62,
+      "gender": "F",
+      "age": 3,
+      "description": ""
+    },
+    {
+      "date": "2020-03-18",
+      "caseNumber": 63,
+      "gender": "M",
+      "age": 62,
+      "description": ""
+    },
+    {
+      "date": "2020-03-18",
+      "caseNumber": 64,
+      "gender": "F",
+      "age": 49,
+      "description": ""
+    },
+    {
+      "date": "2020-03-18",
+      "caseNumber": 65,
+      "gender": "F",
+      "age": 29,
+      "description": ""
+    },
+    {
+      "date": "2020-03-18",
+      "caseNumber": 66,
+      "gender": "M",
+      "age": 7,
+      "description": ""
+    },
+    {
+      "date": "2020-03-18",
+      "caseNumber": 67,
+      "gender": "M",
+      "age": 20,
+      "description": ""
+    },
+    {
+      "date": "2020-03-18",
+      "caseNumber": 68,
+      "gender": "M",
+      "age": 12,
+      "description": ""
     }
   ]
 }
