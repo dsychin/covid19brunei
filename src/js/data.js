@@ -1,5 +1,5 @@
 module.exports = {
-  lastUpdated: "2020-03-20 21:15",
+  lastUpdated: "2020-03-20 21:45",
   statistics: {
     cases: {
       variance: 5,
