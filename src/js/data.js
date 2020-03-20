@@ -468,84 +468,96 @@ module.exports = {
       caseNumber: 57,
       gender: "M",
       age: 53,
-      description: ""
+      description:
+        "Case 57, aged 53 is a Bangladeshi citizen working in the private sector in Brunei Darussalam. He attended a tabligh gathering in the country on 5 March 2020. He started developing symptoms (fever) on 12 March 2020."
     },
     {
       date: "2020-03-18",
       caseNumber: 58,
       gender: "F",
       age: 42,
-      description: ""
+      description:
+        "Case 58, aged 42 is the wife of Case 57. She does not have a travel history and began experiencing body aches on 16 March 2020."
     },
     {
       date: "2020-03-18",
       caseNumber: 59,
       gender: "F",
       age: 13,
-      description: ""
+      description:
+        "Case 59, aged 13 is the daughter of Case 57. She has no travel history, and started developing symptoms (fever) on 13 March 2020."
     },
     {
       date: "2020-03-18",
       caseNumber: 60,
       gender: "F",
       age: 13,
-      description: ""
+      description:
+        "Case 60, aged 13 is the daughter of Case 57 and the twin sister of Case 59. She does not have any travel history and started developing symptoms (fever) on 13 March 2020."
     },
     {
       date: "2020-03-18",
       caseNumber: 61,
       gender: "M",
       age: 12,
-      description: ""
+      description:
+        "Case 61, aged 12 is the son of Case 57. He does not have any travel history and started developing symptoms (fever) on 14 March 2020."
     },
     {
       date: "2020-03-18",
       caseNumber: 62,
       gender: "F",
       age: 3,
-      description: ""
+      description:
+        "Case 62, aged 3 is the daughter of Case 53, a British citizen who has been in the country since January 2020. She started developing symptoms (flu) since 13 March 2020."
     },
     {
       date: "2020-03-18",
       caseNumber: 63,
       gender: "M",
       age: 62,
-      description: ""
+      description:
+        "Case 63, aged 62 is a colleague of Case 43. He has no travel history and met with Case 49 on 9 March 2020. He started developing symptoms (fever and flu) on 14 March 2020."
     },
     {
       date: "2020-03-18",
       caseNumber: 64,
       gender: "F",
       age: 49,
-      description: ""
+      description:
+        "Case 64, aged 49 is a colleague of Case 42. She has no travel history and began developing symptoms (cough and flu) on 11 March 2020."
     },
     {
       date: "2020-03-18",
       caseNumber: 65,
       gender: "F",
       age: 29,
-      description: ""
+      description:
+        "Case 65, aged 29 is the daughter of Case 47. She has no travel history and met with her father on 10 March 2020."
     },
     {
       date: "2020-03-18",
       caseNumber: 66,
       gender: "M",
       age: 7,
-      description: ""
+      description:
+        "Case 66, aged 7 is a contact of Case 42. He has no travel history and has not shown any symptoms of the virus."
     },
     {
       date: "2020-03-18",
       caseNumber: 67,
       gender: "M",
       age: 20,
-      description: ""
+      description:
+        "Case 67, aged 20 is a close friend of Case 48. They do not have a travel history and has not shown any symptoms of the virus."
     },
     {
       date: "2020-03-18",
       caseNumber: 68,
       gender: "M",
       age: 12,
-      description: ""
+      description:
+        "Case 68, aged 12 is a contact of Case 52. Investigation of this contact revealed that this is the first case in the third generation tabligh cluster. This means that there is limited transmission of COVID-19 infection in Brunei Darussalam but there is no evidence that it is widespread."
     },
     {
       date: "2020-03-19",
@@ -586,6 +598,41 @@ module.exports = {
       age: 68,
       description:
         "Case 73, aged 68, is a local citizen who returned from a family holiday in the United Kingdom on 16 March 2020 via flight onboard Royal Brunei BI004 (seated in 9A). Case 73 started developing symptoms (cough) on 12 March 2020."
+    },
+    {
+      date: "2020-03-20",
+      caseNumber: 74,
+      gender: "F",
+      age: 16,
+      description: ""
+    },
+    {
+      date: "2020-03-20",
+      caseNumber: 75,
+      gender: "F",
+      age: 10,
+      description: ""
+    },
+    {
+      date: "2020-03-20",
+      caseNumber: 76,
+      gender: "F",
+      age: 37,
+      description: ""
+    },
+    {
+      date: "2020-03-20",
+      caseNumber: 77,
+      gender: "F",
+      age: 15,
+      description: ""
+    },
+    {
+      date: "2020-03-20",
+      caseNumber: 78,
+      gender: "M",
+      age: 54,
+      description: ""
     }
   ]
 };
