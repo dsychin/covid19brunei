@@ -7,6 +7,7 @@ import ExternalLinks from "./components/ExternalLinks";
 import AdviceLine from "./components/AdviceLine";
 import Footer from "./components/Footer";
 import "./App.scss";
+import Cases from "./components/Cases";
 
 const build_date = preval`module.exports = new Date()`;
 
@@ -35,6 +36,7 @@ const App = () => {
         <Title date={build_date} />
         <Stats />
         <Trends />
+        <Cases />
         <ExternalLinks />
         <AdviceLine />
         <Footer date={build_date} />
