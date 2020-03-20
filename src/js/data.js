@@ -1,17 +1,17 @@
 module.exports = {
-  lastUpdated: "2020-03-19 17:13",
+  lastUpdated: "2020-03-20 21:15",
   statistics: {
     cases: {
       variance: 5,
-      total: 73
+      total: 78
     },
     deaths: {
       variance: 0,
       total: 0
     },
     recovered: {
-      variance: 0,
-      total: 0
+      variance: 1,
+      total: 1
     }
   },
   cases: [
