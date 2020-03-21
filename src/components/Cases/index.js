@@ -1,4 +1,4 @@
-import React, { forwardRef } from 'react';
+import React, { forwardRef, useEffect, useState } from 'react';
 import MaterialTable from 'material-table';
 import AddBox from '@material-ui/icons/AddBox';
 import ArrowDownward from '@material-ui/icons/ArrowDownward';
@@ -15,8 +15,7 @@ import Remove from '@material-ui/icons/Remove';
 import SaveAlt from '@material-ui/icons/SaveAlt';
 import Search from '@material-ui/icons/Search';
 import ViewColumn from '@material-ui/icons/ViewColumn';
-
-import data from '../../data/data';
+import Axios from 'axios';
 
 const tableIcons = {
     Add: forwardRef((props, ref) => <AddBox {...props} ref={ref} />),
@@ -49,18 +48,51 @@ const Cases = () => {
 export default Cases;
 
 const BruneiCases = () => {
+    const [cases, setCases] = useState([]);
+
+    useEffect(() => {
+        getCases();
+    }, []);
+
+    const getCases = async () => {
+        let response = await Axios.get('https://public.needmasks.com/v1/brunei-cases');
+        setCases(response.data.result);
+    };
+
     return (
         <div>
             <MaterialTable
                 icons={ tableIcons }
                 title="Brunei Cases"
                 columns={[
-                    { title: 'Case', field: 'caseNumber', type:'numeric', width: 100 },
-                    { title: 'Age', field: 'age', cellStyle: { width: 'auto' }, headerStyle: { width: 'auto' } },
-                    { title: 'Gender', field: 'gender', cellStyle: { width: 'auto' }, headerStyle: { width: 'auto' } },
-                    { title: 'Description', field: 'description', cellStyle: { width: 'auto' }, headerStyle: { width: 'auto' } },
+                    {
+                        title: 'Case',
+                        field: 'id',
+                        type: 'numeric',
+                        width: 100,
+                        defaultSort: 'asc'
+                    },
+                    {
+                        title: 'Age',
+                        field: 'age',
+                        type: 'numeric',
+                        cellStyle: { width: 'auto' },
+                        headerStyle: { width: 'auto' }
+                    },
+                    {
+                        title: 'Gender',
+                        field: 'gender',
+                        cellStyle: { width: 'auto' },
+                        headerStyle: { width: 'auto' }
+                    },
+                    {
+                        title: 'Description',
+                        field: 'description',
+                        cellStyle: { width: 'auto' },
+                        headerStyle: { width: 'auto' }
+                    },
                 ]}
-                data={ data.cases }
+                data={ cases }
             />
         </div>
     )

@@ -4,7 +4,7 @@ const Footer = ({ date }) => (
   <footer>
     <p>
       Source: Press Release from{" "}
-      <a href="http://moh.gov.bn/" target="_blank">
+      <a href="http://moh.gov.bn/" target="_blank" rel="noopener noreferrer">
         Ministry of Health, Brunei
       </a>
     </p>
@@ -17,18 +17,18 @@ const Footer = ({ date }) => (
       This project is released under the{" "}
       <a
         href="https://github.com/dsychin/covid19brunei/blob/master/LICENSE"
-        target="_blank"
+        target="_blank" rel="noopener noreferrer"
       >
         Open Source MIT License
       </a>
       . View this project{" "}
-      <a href="https://github.com/dsychin/covid19brunei" target="_blank">
+      <a href="https://github.com/dsychin/covid19brunei" target="_blank" rel="noopener noreferrer">
         on GitHub.
       </a>
     </p>
     <p>
       Special thanks to the developer of{" "}
-      <a href="https://manamakan.com/" target="_blank">
+      <a href="https://manamakan.com/" target="_blank" rel="noopener noreferrer">
         Mana Makan
       </a>{" "}
       for compiling the case descriptions.
@@ -39,7 +39,7 @@ const Footer = ({ date }) => (
         href="https://www.flaticon.com/authors/freepik"
         title="Freepik"
         target="_blank"
-        rel="nofollow"
+        rel="nofollow noopener noreferrer"
       >
         Freepik
       </a>{" "}
@@ -48,7 +48,7 @@ const Footer = ({ date }) => (
         href="https://www.flaticon.com/"
         title="Flaticon"
         target="_blank"
-        rel="nofollow"
+        rel="nofollow noopener noreferrer"
       >
         www.flaticon.com
       </a>
