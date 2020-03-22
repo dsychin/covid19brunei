@@ -51,13 +51,14 @@ const BruneiCases = () => {
     const [cases, setCases] = useState([]);
 
     useEffect(() => {
+        const getCases = async () => {
+            let response = await Axios.get('https://public.needmasks.com/v1/brunei-cases');
+            setCases(response.data.result);
+        };
+        
         getCases();
     }, []);
 
-    const getCases = async () => {
-        let response = await Axios.get('https://public.needmasks.com/v1/brunei-cases');
-        setCases(response.data.result);
-    };
 
     return (
         <div>
