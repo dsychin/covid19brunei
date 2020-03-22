@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { LineChart, BarChart } from "../Chart";
-import data from "../../data/data";
 import { Tabs, Tab, Paper } from "@material-ui/core";
+import Axios from "axios";
 
 let ageLabels = [
   "0 - 9",
@@ -17,12 +17,35 @@ let ageLabels = [
 
 const Trends = () => {
   const [tabIndex, setTabIndex] = useState(0);
+  const [datasets, setDatasets] = useState([]);
+  const [ageDatasets, setAgeDatasets] = useState([]);
+
   const handleChange = (event, newValue) => {
     setTabIndex(newValue);
   };
 
-  const datasets = getCaseTrend(data);
-  const ageDatasets = getAgeTrend(data);
+  useEffect(() => {
+    const getDatasets = async () => {
+      const response = await Axios.get('https://public.needmasks.com/v1/brunei-cases');
+
+      // sort by case number
+      const data = response.data.result.sort((a, b) => {
+        return parseInt(a.id) - parseInt(b.id);
+      })
+      // trim datetime to date only
+      .map(value => {
+        let newValue = value;
+        newValue.report_date = value.report_date.substring(0, 10);
+        return newValue;
+      });
+
+      setDatasets(getCaseTrend(data));
+      setAgeDatasets(getAgeTrend(data));
+    }
+
+    getDatasets();
+  }, []);
+
   return (
     <div className="trend">
       <h2>Trends</h2>
@@ -48,13 +71,13 @@ const Trends = () => {
 
 const getAgeTrend = data => {
   // get male count by age
-  let maleCount = data.cases.reduce((acc, val) => {
+  let maleCount = data.reduce((acc, val) => {
     if (acc.length === 0) {
       acc = Array(9).fill(0);
     }
 
     // exit current loop if not male
-    if (val.gender === "F") {
+    if (val.gender === "FEMALE") {
       return acc;
     }
 
@@ -84,13 +107,13 @@ const getAgeTrend = data => {
   }, []);
 
   // get male count by age
-  let femaleCount = data.cases.reduce((acc, val) => {
+  let femaleCount = data.reduce((acc, val) => {
     if (acc.length === 0) {
       acc = Array(9).fill(0);
     }
 
     // exit current loop if not female
-    if (val.gender === "M") {
+    if (val.gender === "MALE") {
       return acc;
     }
 
@@ -136,12 +159,12 @@ const getAgeTrend = data => {
 
 const getCaseTrend = data => {
   // get count for each days
-  let count = data.cases.reduce((acc, val) => {
-    let index = acc.findIndex(a => a.t === val.date);
+  let count = data.reduce((acc, val) => {
+    let index = acc.findIndex(a => a.t === val.report_date);
     // push if not exist
     if (index === -1) {
       acc.push({
-        t: val.date,
+        t: val.report_date,
         y: 1
       });
     } else {
@@ -161,12 +184,12 @@ const getCaseTrend = data => {
   });
 
   // get count increase
-  let increaseCount = data.cases.reduce((acc, val) => {
-    let index = acc.findIndex(a => a.t === val.date);
+  let increaseCount = data.reduce((acc, val) => {
+    let index = acc.findIndex(a => a.t === val.report_date);
     // push if not exist
     if (index === -1) {
       acc.push({
-        t: val.date,
+        t: val.report_date,
         y: 1
       });
     } else {
@@ -177,14 +200,14 @@ const getCaseTrend = data => {
   }, []);
 
   // get MALE count for each days
-  let maleCount = data.cases.reduce((acc, val) => {
-    let index = acc.findIndex(a => a.t === val.date);
+  let maleCount = data.reduce((acc, val) => {
+    let index = acc.findIndex(a => a.t === val.report_date);
     // check if male
-    if (val.gender === "M") {
+    if (val.gender === "MALE") {
       // push if not exist
       if (index === -1) {
         acc.push({
-          t: val.date,
+          t: val.report_date,
           y: 1
         });
       } else {
@@ -205,14 +228,14 @@ const getCaseTrend = data => {
   });
 
   // get FEMALE count for each days
-  let femaleCount = data.cases.reduce((acc, val) => {
-    let index = acc.findIndex(a => a.t === val.date);
+  let femaleCount = data.reduce((acc, val) => {
+    let index = acc.findIndex(a => a.t === val.report_date);
     // check if male
-    if (val.gender === "F") {
+    if (val.gender === "FEMALE") {
       // push if not exist
       if (index === -1) {
         acc.push({
-          t: val.date,
+          t: val.report_date,
           y: 1
         });
       } else {
