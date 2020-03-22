@@ -11,7 +11,7 @@ http://covid19brunei.com
 2. Run `npm install` to install dependencies.
 3. Run `npm start`.
 4. To build the project, run `npm run build`.
-5. Publish the built `dist` folder.
+5. Publish the built `public` folder.
 
 ## Contributors ✨
 
