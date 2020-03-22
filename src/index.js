@@ -1,22 +1,23 @@
-import './scss/style.scss';
-import './js/trend-chart';
-import './js/age-chart';
-import './js/table';
-import './js/world-data';
+import React from "react";
+import ReactDOM from "react-dom";
+import TagManager from "react-gtm-module";
 
-import data from './js/data.js';
+import constants from "./common/constants";
+import "./index.scss";
+import App from "./App";
+import * as serviceWorker from "./serviceWorker";
 
-// update statistics
-document.getElementById('last-update').innerText = new Date(data.lastUpdated)
-    .toLocaleString("en-SG", {
-        timeZone: 'Asia/Singapore',
-        day: 'numeric',
-        month: 'long',
-        year: 'numeric',
-        hour: 'numeric',
-        minute: 'numeric'
-    });
+const tagManagerArgs = {
+  gtmId: constants.gtmId
+};
 
-document.getElementById('case-number').innerText = data.statistics.cases.total;
-document.getElementById('death-number').innerText = data.statistics.deaths.total;
-document.getElementById('recover-number').innerText = data.statistics.recovered.total;
+if (process.env.NODE_ENV !== "development") {
+  TagManager.initialize(tagManagerArgs);
+}
+
+ReactDOM.render(<App />, document.getElementById("root"));
+
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+serviceWorker.unregister();

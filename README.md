@@ -23,7 +23,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://www.linkedin.com/in/dsychin/"><img src="https://avatars2.githubusercontent.com/u/19268668?v=4" width="100px;" alt=""/><br /><sub><b>Desmond Chin</b></sub></a><br /><a href="https://github.com/dsychin/covid19brunei/commits?author=dsychin" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/albertsyh"><img src="https://avatars1.githubusercontent.com/u/21016674?v=4" width="100px;" alt=""/><br /><sub><b>albertsyh</b></sub></a><br /><a href="#content-albertsyh" title="Content">🖋</a> <a href="https://github.com/dsychin/covid19brunei/commits?author=albertsyh" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/albertsyh"><img src="https://avatars1.githubusercontent.com/u/21016674?v=4" width="100px;" alt=""/><br /><sub><b>albertsyh</b></sub></a><br /><a href="#content-albertsyh" title="Content">🖋</a></td>
   </tr>
 </table>
 
