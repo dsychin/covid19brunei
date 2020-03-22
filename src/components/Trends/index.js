@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import { LineChart, BarChart } from "../Chart";
 import data from "../../data/data";
+import { Tabs, Tab, Paper } from "@material-ui/core";
 
 let ageLabels = [
   "0 - 9",
@@ -15,21 +16,32 @@ let ageLabels = [
 ];
 
 const Trends = () => {
+  const [tabIndex, setTabIndex] = useState(0);
+  const handleChange = (event, newValue) => {
+    setTabIndex(newValue);
+  };
+
   const datasets = getCaseTrend(data);
   const ageDatasets = getAgeTrend(data);
   return (
     <div className="trend">
       <h2>Trends</h2>
-      <div className="chart">
-        <LineChart title="Brunei COVID-19 Case Trends" data={datasets} />
-      </div>
-      <div className="chart">
-        <BarChart
-          title="Brunei COVID-19 Case by Age and Gender"
-          data={ageDatasets}
-          labels={ageLabels}
-        />
-      </div>
+      <Paper elevation={3}>
+        <Tabs value={tabIndex} onChange={handleChange}>
+          <Tab label='Cases' />
+          <Tab label='Age and Gender' />
+        </Tabs>
+        {tabIndex === 0 && <div className="chart">
+          <LineChart title="Brunei COVID-19 Case Trends" data={datasets} />
+        </div>}
+        {tabIndex === 1 && <div className="chart">
+          <BarChart
+            title="Brunei COVID-19 Case by Age and Gender"
+            data={ageDatasets}
+            labels={ageLabels}
+          />
+        </div>}
+      </Paper>
     </div>
   );
 };
