@@ -3,7 +3,7 @@ module.exports = {
   statistics: {
     cases: {
       variance: 5,
-      total: 83
+      total: 88
     },
     deaths: {
       variance: 0,
