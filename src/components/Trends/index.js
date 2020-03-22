@@ -54,16 +54,18 @@ const Trends = () => {
           <Tab label='Cases' />
           <Tab label='Age and Gender' />
         </Tabs>
-        {tabIndex === 0 && <div className="chart">
-          <LineChart title="Brunei COVID-19 Case Trends" data={datasets} />
-        </div>}
-        {tabIndex === 1 && <div className="chart">
-          <BarChart
-            title="Brunei COVID-19 Case by Age and Gender"
-            data={ageDatasets}
-            labels={ageLabels}
-          />
-        </div>}
+        {tabIndex === 0 && datasets.length !== 0 &&
+          (<div className="chart">
+            <LineChart title="Brunei COVID-19 Case Trends" data={datasets} />
+          </div>)}
+        {tabIndex === 1 && datasets.length !== 0 &&
+          (<div className="chart">
+            <BarChart
+              title="Brunei COVID-19 Case by Age and Gender"
+              data={ageDatasets}
+              labels={ageLabels}
+            />
+          </div>)}
       </Paper>
     </div>
   );
