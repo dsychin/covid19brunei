@@ -70,30 +70,26 @@ const BruneiCases = () => {
                         title: 'Case',
                         field: 'id',
                         type: 'numeric',
-                        width: 100,
                         defaultSort: 'asc'
                     },
                     {
                         title: 'Age',
                         field: 'age',
                         type: 'numeric',
-                        cellStyle: { width: 'auto' },
-                        headerStyle: { width: 'auto' }
                     },
                     {
                         title: 'Gender',
                         field: 'gender',
-                        cellStyle: { width: 'auto' },
-                        headerStyle: { width: 'auto' }
-                    },
-                    {
-                        title: 'Description',
-                        field: 'description',
-                        cellStyle: { width: 'auto' },
-                        headerStyle: { width: 'auto' }
-                    },
+                    }
                 ]}
                 data={ cases }
+                detailPanel={rowData => {
+                    return (
+                        <div style={{ padding: '1rem' }}>
+                            {rowData.description}
+                        </div>
+                    )
+                }}
             />
         </div>
     )
