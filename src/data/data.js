@@ -2,8 +2,8 @@ module.exports = {
   lastUpdated: "2020-03-24 17:44",
   statistics: {
     cases: {
-      variance: 13,
-      total: 104
+      variance: 5,
+      total: 109
     },
     deaths: {
       variance: 0,
