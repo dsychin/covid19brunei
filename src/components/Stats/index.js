@@ -1,14 +1,15 @@
 import React, { useEffect, useState } from "react";
 import api from "../../common/api";
 import numeral from "numeral";
-import data from "../../data/data";
+import Axios from "axios";
 
 const Stats = () => {
   const [allData, setAllData] = useState(null);
   const [chinaData, setChinaData] = useState(null);
-  const {
-    statistics: { cases, deaths, recovered }
-  } = data;
+  const [cases, setCases] = useState(0);
+  const [deaths, setDeaths] = useState(0);
+  const [recovered, setRecovered] = useState(0);
+  const [isLoadingBrunei, setIsLoadingBrunei] = useState(true);
 
   useEffect(() => {
     const getData = () =>
@@ -19,34 +20,53 @@ const Stats = () => {
       api.get("/api/countries/CN").then(({ data }) => {
         setChinaData(data);
       });
+    const getBruneiData = async () => {
+      const response = await Axios.get('https://covid19.mathdro.id/api/countries/BN');
+      setCases(response.data.confirmed.value);
+      setDeaths(response.data.deaths.value);
+      setRecovered(response.data.recovered.value);
+      setIsLoadingBrunei(false);
+    }
+    
     getData();
     getChinaData();
+    getBruneiData();
   }, []);
 
   return (
     <div className="stats">
       <h2>Statistics</h2>
       <h3>Brunei</h3>
-      <div className="wrapper">
-        <div className="stat">
-          <div id="case-number" className="number">
-            {cases.total}
+      {isLoadingBrunei ? (
+        <div className="loader">
+          <div className="lds-facebook">
+            <div></div>
+            <div></div>
+            <div></div>
           </div>
-          <div className="stat-title">Cases</div>
         </div>
-        <div className="stat">
-          <div id="death-number" className="number">
-            {deaths.total}
+      ) : (
+          <div className="wrapper">
+            <div className="stat">
+              <div id="case-number" className="number">
+                {cases}
+              </div>
+              <div className="stat-title">Cases</div>
+            </div>
+            <div className="stat">
+              <div id="death-number" className="number">
+                {deaths}
+              </div>
+              <div className="stat-title">Deaths</div>
+            </div>
+            <div className="stat">
+              <div id="recover-number" className="number">
+                {recovered}
+              </div>
+              <div className="stat-title">Recovered</div>
+            </div>
           </div>
-          <div className="stat-title">Deaths</div>
-        </div>
-        <div className="stat">
-          <div id="recover-number" className="number">
-            {recovered.total}
-          </div>
-          <div className="stat-title">Recovered</div>
-        </div>
-      </div>
+        )}
       <h3>Global</h3>
       {!allData ? (
         <div id="loader-global" className="loader">
