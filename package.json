@@ -19,7 +19,7 @@
     "react-scripts": "3.4.0"
   },
   "devDependencies": {
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "preval.macro": "^4.0.0"
   },
   "scripts": {
